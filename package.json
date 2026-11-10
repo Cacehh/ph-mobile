@@ -1,0 +1,15 @@
+{
+  "name": "ph-mobile",
+  "version": "0.1.0",
+  "description": "Validate, format and identify the network of Philippine mobile numbers.",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": ["src"],
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "keywords": ["philippines", "mobile", "phone", "globe", "smart", "dito"],
+  "author": "Rolf Cayce Dy",
+  "license": "MIT"
+}
